@@ -1,0 +1,127 @@
+{
+  "slug": "storm",
+  "name": "STORM",
+  "symbol": "STORM",
+  "master": "EQBsosmcZrD6FHijA7qWGLw5wo_aH8UN435hi935jJ_STORM",
+  "decimals": 9,
+  "github": {
+    "owner": "Freebielife",
+    "repo": "STORM"
+  },
+  "pools": [
+    {
+      "address": "EQB95X5u5B7pfri4rtiB4yDkiMh2fssW_2iEOEFKfLmAeqVo",
+      "dex": "stonfi",
+      "quote": "TON",
+      "evidence": "https://tonapi.io/v2/accounts/EQB95X5u5B7pfri4rtiB4yDkiMh2fssW_2iEOEFKfLmAeqVo/events?limit=100"
+    },
+    {
+      "address": "EQAm_QHFNFg5SM0i7tc2Jl9W1xVl0aA7e3lFvRAGixF8T4ig",
+      "dex": "dedust",
+      "quote": "TON",
+      "evidence": "https://tonapi.io/v2/accounts/EQAm_QHFNFg5SM0i7tc2Jl9W1xVl0aA7e3lFvRAGixF8T4ig/events?limit=100"
+    }
+  ],
+  "primary_pool": "EQB95X5u5B7pfri4rtiB4yDkiMh2fssW_2iEOEFKfLmAeqVo",
+  "links": {
+    "website": "https://storm.tg",
+    "telegram": "https://t.me/storm_trade_news"
+  },
+  "services": {
+    "UQD4uGNdB4a3f52mYOZf0x1nCmdd1DAvrLppL0a1cetTYCQx": "Binance",
+    "EQDPfqI17W9lF-3OmAJu92GOn22BoTMdTmW6cY4s0V-ArRRY": "Bybit"
+  },
+  "engine_version": "1.3.0",
+  "discovery": {
+    "checkedAt": 1795713552,
+    "sources": [
+      "https://tonapi.io/v2/jettons/EQBsosmcZrD6FHijA7qWGLw5wo_aH8UN435hi935jJ_STORM",
+      "https://api.geckoterminal.com/api/v2/networks/ton/tokens/EQBsosmcZrD6FHijA7qWGLw5wo_aH8UN435hi935jJ_STORM/pools?page=1",
+      "https://api.geckoterminal.com/api/v2/networks/ton/tokens/EQBsosmcZrD6FHijA7qWGLw5wo_aH8UN435hi935jJ_STORM/pools?page=2"
+    ],
+    "primaryPoolPolicy": "largest indexed USD liquidity among swap-verified supported TON pools"
+  },
+  "project_description": {
+    "text": "The utility token of the Storm Trade protocol (storm.tg).",
+    "origin": "token_metadata",
+    "sources": [
+      "https://tonapi.io/v2/jettons/EQBsosmcZrD6FHijA7qWGLw5wo_aH8UN435hi935jJ_STORM"
+    ],
+    "checked_at": "2026-11-26"
+  },
+  "flag_file": "web/project-flag.webp",
+  "logo_file": "web/project-logo.webp",
+  "logo_origin": "token_metadata",
+  "logo_source": "https://static.storm.tg/TOKEN.png",
+  "service_provenance": {
+    "0:f8b8635d0786b77f9da660e65fd31d670a675dd4302facba692f46b571eb5360": {
+      "category": "custody",
+      "source": "User-provided attribution, 2026-11-22; ownership not independently verified"
+    },
+    "0:cf7ea235ed6f6517edce98026ef7618e9f6d81a1331d4e65ba718e2cd15f80ad": {
+      "category": "custody",
+      "source": "User-provided attribution, 2026-11-22; ownership not independently verified"
+    }
+  },
+  "flag_source": "TONecoFlags user-selected catalogue entry 029; original @ton_flags by @TonMonitoring by @EmojiSaverBot.zip",
+  "template_repository": "Freebielife/TON-Observatory-Template",
+  "max_html_bytes": 2500000,
+  "ui": {
+    "holders_initial": 10,
+    "holders_expanded": 20,
+    "operations_initial": 20,
+    "operations_max": 50
+  },
+  "methodology": {
+    "valuation": "last observed swap in primary_pool times CURRENT total supply; not circulating market cap",
+    "primary_pool": "EQB95X5u5B7pfri4rtiB4yDkiMh2fssW_2iEOEFKfLmAeqVo",
+    "sellers": "sum of successful supported native TON swap sales; service roles excluded",
+    "holders": "balances excluding known services and identified contracts; unclassified accounts may remain until verified",
+    "burns": "accepted burn notifications and zero-address transfers shown as distinct evidence",
+    "usd": "historical TON/USD rate from CoinGecko",
+    "history": "incremental confirmed swaps; missing intervals remain partial"
+  },
+  "branding": {
+    "hero": {
+      "origin": "token_metadata",
+      "source": "https://static.storm.tg/TOKEN.png",
+      "file": "web/project-logo.webp"
+    },
+    "sectionFlag": {
+      "source": "TONecoFlags user-selected catalogue entry 029; original @ton_flags by @TonMonitoring by @EmojiSaverBot.zip",
+      "catalogueKey": null,
+      "emoji": null,
+      "file": "web/project-flag.webp"
+    },
+    "channel": "https://t.me/storm_trade_news"
+  },
+  "template_commit": "65780137fa12eda7500f48d29c5b261411305274",
+  "flag_catalog_number": "029",
+  "additional_links": [
+    {
+      "label": "Telegram community",
+      "url": "https://t.me/storm_trade_fam"
+    }
+  ],
+  "link_verification": {
+    "checked_at": "2026-11-26",
+    "results": [
+      [
+        "https://storm.tg",
+        200,
+        "https://storm.tg"
+      ],
+      [
+        "https://t.me/storm_trade_news",
+        "HTTPError",
+        "HTTP Error 403: Forbidden"
+      ],
+      [
+        "https://t.me/storm_trade_fam",
+        "HTTPError",
+        "HTTP Error 403: Forbidden"
+      ]
+    ],
+    "note": "Telegram URLs match exact on-chain metadata; endpoint checks returned 403 here."
+  }
+}
